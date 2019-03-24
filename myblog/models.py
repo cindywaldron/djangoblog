@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.contrib import admin
 
+
 class Post(models.Model):
     title = models.CharField(max_length=128)
     text = models.TextField(blank=True)
